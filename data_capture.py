@@ -4,8 +4,8 @@ import time
 
 # Configura la comunicación serial
 ser = serial.Serial(
-    port='COM3',           # Cambia a tu puerto COM real
-    baudrate=9600,         # Configura el baud rate como en tu dispositivo
+    port='COM1',           # Cambia a tu puerto COM real
+    baudrate=19200,         # Configura el baud rate como en tu dispositivo
     parity=serial.PARITY_NONE,
     stopbits=serial.STOPBITS_ONE,
     bytesize=serial.EIGHTBITS,
