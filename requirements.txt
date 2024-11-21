@@ -1,3 +1,6 @@
+pyodbc
+os
+dotenv
 pyserial==3.5
 db-sqlite3
 anyio==4.6.2.post1
